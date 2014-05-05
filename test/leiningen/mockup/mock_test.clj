@@ -1,6 +1,6 @@
-(ns leiningen.tao.mock-test
+(ns leiningen.mockup.mock-test
   (:use clojure.test
-        leiningen.tao.mock))
+        leiningen.mockup.mock))
 
 
 (deftest paths-are-converted-to-ids
