@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+
+/* *** For local usage of the handwritten font face ***
+@font-face {
+  font-family: 'Patrick Hand SC'; font-style: normal; font-weight: 400;
+  src: local('Patrick Hand SC'), url(fonts/patrick-hand-sc-regular.woff) format('woff'); } */
+
+
+body {
+  color: #333;
+  font-family: 'Patrick Hand SC'; font-size:16px; }
+
+.navbar {
+  border-width: 0px; border-bottom: dashed 2px #ccc;
+  font-size: 18px; }
+
+.block {
+    border: dashed 2px #ccc;
+    padding: 10px; margin: 10px; }
+
+.block h3 {
+    margin-top: 0px; }
+
+.clear {
+    clear:both; }
+
+
+
+/* file upload buttons */
+.btn-file {
+    position: relative; overflow: hidden; }
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0; right: 0;
+    display: block; min-width: 100%; min-height: 100%;
+    font-size: 999px; text-align: right;
+    filter: alpha(opacity=0); opacity: 0;
+    background: red;
+    cursor: inherit; }
+
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important; }
+
+
+/* Email Template */
+span.glyphicon-envelope { font-size: 4em; float:right;}
+
+
+
+/* custom css below */
+
+
+

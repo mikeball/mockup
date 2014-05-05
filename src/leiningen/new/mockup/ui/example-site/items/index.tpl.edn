@@ -1,0 +1,6 @@
+{:title "Items Example List"
+ :h1 "Items Example List"
+ :items
+    [{:name "Example Item 1" :image "holder.js/200x160/text:Placeholder Image"}
+     {:name "Example Item 2" :image "holder.js/200x160/text:Placeholder Image"}
+     {:name "Example Item 3" :image "holder.js/200x160/text:Placeholder Image"}]}
