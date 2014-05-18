@@ -2,7 +2,6 @@
   (:use clojure.test
         leiningen.mockup.mock))
 
-
 (deftest paths-are-converted-to-ids
   (are [path expected] (= (get-id path) expected)
        "/a" :a
@@ -13,18 +12,7 @@
   (are [id expected] (= (get-path id) expected)
        :a "a"
        :a.index "a/index"
-       :a.b "a/b"
-       ))
-
-
-; probable test of implementation too closely.
-;; (deftest certain-files-are-ignored
-;;   (are [path expected] (= (is-ignored? path) expected)
-;;        "/favicon.ico" true
-;;        "/robots.txt" true
-;;        "/" false
-;;        ))
-
+       :a.b "a/b" ))
 
 (deftest wrap-ignored-ignores
   (are [path expected]
@@ -38,23 +26,11 @@
        "/robots.txt" 404
        "/somepage" 200 ))
 
-
-(run-tests)
-
-
-
-
-
-
-
 (deftest unnecessary-requests-are-ignored
   (are [path] (= 404 (-> (dispatch {:uri "/favicon.ico"})
                          :status ))
        "/favicon.ico"
-       "/robots.txt"
-       ))
-
-
+       "/robots.txt" ))
 
 (deftest content-types-are-inferred
   (are [file expected] (= (infer-content-type file) expected)
@@ -65,16 +41,7 @@
        "a.png"  "image/png"
        "a.pdf"  "application/pdf"
        "a.txt"  "text/plain"
-       "a.woff" "font/woff"
-       ))
-
-
-; (ns-unmap *ns* 'content-types-are-inferred)
-
-; (run-tests)
-
-
-
+       "a.woff" "font/woff" ))
 
 
 
@@ -82,4 +49,3 @@
 ;; load-data returns edn from file
 ;; load-data returns ??? if the edn isn't valid?
 
-;; /fonts is a valid static asset path
