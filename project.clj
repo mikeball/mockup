@@ -1,5 +1,5 @@
 (defproject mockup/lein-template "0.1.0"
-  :description "Easily create responsive and clickable wireframe prototypes"
+  :description "Easily create clickable wireframe prototypes"
   
   :url "https://github.com/mikeball/mockup"
   
