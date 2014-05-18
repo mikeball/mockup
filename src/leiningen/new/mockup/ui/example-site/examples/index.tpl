@@ -55,6 +55,31 @@
             </div>
         </div>
 
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">State</label>
+            <div class="col-sm-10">
+                <select class="form-control">
+                    <option value=""></option>
+                    <option value="">Arizona</option>
+                    <option value="">Oregon</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label"></label>
+            <div class="col-sm-10">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="">
+                        this is some option with a checkbox 
+                    </label>
+                </div>
+            </div>
+        </div>
+
+
+
         <div class="form-group" style="font-size:24px;text-align:center;">
             *** Additional new account fields, etc...
         </div>
