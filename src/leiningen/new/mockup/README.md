@@ -1,70 +1,32 @@
-# Getting Started
+# Welcome to your Mockup
 
-1. Confirm you have Java installed
+
+## How to Start/Run your Mockup
 ```bash
-java -version
-```
-..* If you don't please install.
-
-
-2. Confirm you have recent version of Leiningen installed.
-```bash
-lein help
-```
-..* If you don't please visit http://leiningen.org/ and install it.
-
-
-3. Create your project
-```bash
-lein new tao-mockup my-project
-
-lein new mockup my-project
-
-
-```
-
-4. Run and Build your Mockup
-```bash
-lein tao run-mockup
-
 lein mockup run
-
-
 ```
-You can visit the live mockup at http://localhost:3000/ and edit the mockup with your favorite editor.
-Notice how the browser page automatically refreshes whenever changes are saved.
+You can now visit the live mockup at http://localhost:3000/ and edit the files in the generated mockup with your favorite editor, and the browser page automatically refreshes whenever changes are saved.  
 
-The UI directory which has been pre-populated with sample site and common elements
-for an easy starting point.
+The UI directory is pre-populated with an example sample site and common scenarious like login/register, and common interface elements.
 
 
 
-5. Generate a Static version of your Mockup for easy publishing to a web server or S3
+## How to Generate a Static version of your Mockup for easy publishing to a web server or S3
 
-First stop the ???? task if it's running and start the serve task. The serve task won't insert the auto-refresh 
-javascript into the html, which we don't want in the published version.
-
+First stop the "run" task if it's running and start the "serve" task. We do this because the serve task won't insert the auto-refresh javascript into the html, which we don't want in our published version!
 ```bash
-lein tao serve-mockup
-
 lein mockup serve
-
 ```
 
 Now, in a different terminal window and at a location you wish to store the generated copy
-run the following command to mirror the site and fix all the links and file extentions.
-
-
+run the following wget command to mirror the site and fix all the links and file extentions. If you don't have wget installed, please install it.
 ```bash
 wget -m -E -k http://localhost:3000/
 ```
 
 You should find your generated mockup in a directory named http://localhost:3000/.
 
-Now simply upload to your webserver or S3 however you prefer. The mockup and links 
-should work fine even if placed in sub-folders on your site.
-
-
+Now simply upload the generated pages to your webserver, Amazon S3, or however you prefer. The mockup and links should work fine even if placed in sub-folders of a website.
 
 
 
