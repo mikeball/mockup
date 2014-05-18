@@ -11,15 +11,15 @@ The UI directory is pre-populated with an example sample site and common scenari
 
 
 
-## How to Generate a Static version of your Mockup for easy publishing to a web server or S3
+## How to generate a static version of your mockup for easy publishing to a web server
 
-First stop the "run" task if it's running and start the "serve" task. We do this because the serve task won't insert the auto-refresh javascript into the html, which we don't want in our published version!
+First stop the "run" task if it's running and start the "serve" task. We do this because the serve task won't insert the auto-refresh javascript into the html, which we don't want in our published version.
 ```bash
 lein mockup serve
 ```
 
 Now, in a different terminal window and at a location you wish to store the generated copy
-run the following wget command to mirror the site and fix all the links and file extentions. If you don't have wget installed, please install it.
+run the following wget command to mirror the site and fix all the links and add file extentions. If you don't have wget installed, please install it.
 ```bash
 wget -m -E -k http://localhost:3000/
 ```

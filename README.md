@@ -1,6 +1,6 @@
 # Mockup
 
-Easily create clickable wireframe prototypes. Pre-loaded with everything you need including bootstrap 3 responsive, and mockup example elements. Live refresh of changes in the browser when you save changes. Handles dynamic lists of data so you don't repeat html templates in long lists of items. Uses mustache templates so they can be used as starting point when programming begins. We sorted out how to generate a complete static html versions of the mockup that you can host in sub-folders on your own site or Amazon S3 bucket.
+Easily create responsive and clickable wireframe prototypes. Pre-loaded with everything you need including bootstrap 3 and example elements to build out wireframes. Live browser refresh of changes on file saves. Add dynamic lists of data so you don't repeat html templates in long lists of items. Uses mustache templates so they can be used as starting point when programming begins. We also sorted out how to generate a complete static html versions of the mockup that you can host in sub-folders on your own site to share with others.
 
 
 ## Status
@@ -34,7 +34,7 @@ lein mockup run
 
 You can now visit the live mockup at http://localhost:3000/ and edit the files in the generated mockup with your favorite editor, and the browser page automatically refreshes whenever changes are saved.  
 
-The UI directory should be pre-populated with an example sample site and common scenarious like login/register so you don't have to do this for each and every site you mockup.
+The UI directory will be pre-populated with an example sample site and common scenarious like login/register so you don't have to do this for each and every site you mockup.
 
 Please see the generated README.md and examples within your generated mockup for additional usages.
 
