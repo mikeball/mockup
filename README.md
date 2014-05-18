@@ -11,22 +11,22 @@ Very functional at this point in time. However, it's currently in early developm
 
 ## Getting Started
 
-1. Confirm you have Java version 1.6 or higher installed. If not, you will need to install it before proceeding.
+Confirm you have Java version 1.6 or higher installed. If not, you will need to install it before proceeding.
 ```bash
 java -version
 ```
 
-2. Confirm you have version 2.X of Leiningen installed. If not please visit http://leiningen.org/ and install it.
+Confirm you have version 2.X of Leiningen installed. If not please visit http://leiningen.org/ and install it.
 ```bash
 lein version
 ```
 
-3. Create your project
+Create your project
 ```bash
 lein new mockup my-project-name
 ```
 
-4. Change into the generated directory and start the mockup.
+Change into the generated directory and start the mockup.
 ```bash
 cd my-project-name
 lein mockup run
