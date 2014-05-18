@@ -1,7 +1,7 @@
 (defproject mockup/lein-template "0.1.0"
-  :description "FIXME: write description"
+  :description "Easily create responsive and clickable wireframe prototypes"
   
-  :url "http://example.com/FIXME"
+  :url "https://github.com/mikeball/mockup"
   
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
@@ -10,8 +10,4 @@
                  [org.clojure/tools.reader "0.8.3"]
                  [ring-server "0.2.8"]
                  [ring-refresh "0.1.1"]
-                 [org.taoclj/tao-mustache "0.0.2"]]
-
-  ; :eval-in-leiningen true
-
-  )
+                 [org.taoclj/tao-mustache "0.0.2"]])
