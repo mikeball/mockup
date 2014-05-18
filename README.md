@@ -18,7 +18,7 @@ java -version
 
 2. Confirm you have version 2.X of Leiningen installed. If not please visit http://leiningen.org/ and install it.
 ```bash
-lein help
+lein version
 ```
 
 3. Create your project
