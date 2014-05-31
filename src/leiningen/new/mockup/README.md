@@ -3,7 +3,7 @@
 
 ## How to Start/Run your Mockup
 ```bash
-lein mockup run
+lein mockup live
 ```
 You can now visit the live mockup at http://localhost:3000/ and edit the files in the generated mockup with your favorite editor, and the browser page automatically refreshes whenever changes are saved.  
 
@@ -13,20 +13,20 @@ The UI directory is pre-populated with an example sample site and common scenari
 
 ## How to generate a static version of your mockup for easy publishing to a web server
 
-First stop the "run" task if it's running and start the "serve" task. We do this because the serve task won't insert the auto-refresh javascript into the html, which we don't want in our published version.
+First stop the "live" task if it's running and start the "serve" task. We do this because the serve task won't insert the auto-refresh javascript into the html, which we don't want in our published version.
 ```bash
 lein mockup serve
 ```
 
-Now, in a different terminal window and at a location you wish to store the generated copy
-run the following wget command to mirror the site and fix all the links and add file extentions. If you don't have wget installed, please install it.
+In a different terminal window and at a location you wish to store the generated copy
+run the following wget command to mirror the site and fix all the links and add file extentions. (*note that this does not fix action attributes in forms)
 ```bash
 wget -m -E -k http://localhost:3000/
 ```
 
-You should find your generated mockup in a directory named http://localhost:3000/.
+You should find your generated copy of your mockup in a directory named http://localhost:3000/.
 
-Now simply upload the generated pages to your webserver, Amazon S3, or however you prefer. The mockup and links should work fine even if placed in sub-folders of a website.
+Now simply upload the generated static pages to your webserver, Amazon S3, or however you prefer. The mockup and links should work fine even if placed in sub-folders of a website.
 
 
 
