@@ -124,7 +124,7 @@
 
 (def dispatch-refreshed
   (-> dispatch
-      (ring.middleware.refresh/wrap-refresh ["ui"])))
+      (ring.middleware.refresh/wrap-refresh [*templates-directory*])))
 
 (defn start [handler]
   (println "now starting to serve mockup...")
