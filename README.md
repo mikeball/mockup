@@ -29,7 +29,7 @@ lein new mockup my-project-name
 Change into the generated directory and start the mockup.
 ```bash
 cd my-project-name
-lein mockup run
+lein mockup live
 ```
 
 You can now visit the live mockup at http://localhost:3000/ and edit the files in the generated mockup with your favorite editor, and the browser page automatically refreshes whenever changes are saved.  

@@ -131,12 +131,16 @@
   (ring-server/serve handler
                      {:join? true}))
 
+
+(defn  live [project]
+  (start dispatch-refreshed))
+
+
 ; perhaps serve should be in different namespace?
 (defn  serve [project]
   (start dispatch))
 
-(defn  run [project]
-  (start dispatch-refreshed))
+
 
 
 

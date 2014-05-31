@@ -14,7 +14,7 @@
   (println "subtask : " subtask)
   (case subtask
        "serve"      (mock/serve project)
-       "run"        (mock/run project)
+       "live"       (mock/live project)
        "version"    (show-version)
                     (show-help subtask)))
 
