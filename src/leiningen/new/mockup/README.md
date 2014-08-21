@@ -41,15 +41,15 @@ Run the following commands inside of the ui/_assets folder.
 ```bash
 
 wget code.jquery.com/jquery-1.11.0.min.js
-wget netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css
-wget netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
+wget netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css
+wget netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js
 wget cdnjs.cloudflare.com/ajax/libs/holder/2.3.1/holder.min.js
 mkdir fonts
 cd fonts
-wget netdna.bootstrapcdn.com/bootstrap/3.1.1/fonts/glyphicons-halflings-regular.eot
-wget netdna.bootstrapcdn.com/bootstrap/3.1.1/fonts/glyphicons-halflings-regular.svg
-wget netdna.bootstrapcdn.com/bootstrap/3.1.1/fonts/glyphicons-halflings-regular.ttf
-wget netdna.bootstrapcdn.com/bootstrap/3.1.1/fonts/glyphicons-halflings-regular.woff
+wget netdna.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot
+wget netdna.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.svg
+wget netdna.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.ttf
+wget netdna.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.woff
 wget -O patrick-hand-sc-regular.woff themes.googleusercontent.com/static/fonts/patrickhandsc/v2/OYFWCgfCR-7uHIovjUZXscR6S2I7R_2PmaFugZazRjg.woff
 
 ```
