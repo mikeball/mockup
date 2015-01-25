@@ -30,7 +30,7 @@
         </div>
         <hr/>
         <div style="text-align:center;">
-            <a href="/{{ path }}/register/confirm" class="btn btn-primary" role="button">
+            <a href="confirm" class="btn btn-primary" role="button">
                 Register Now
             </a>
         </div>

@@ -10,4 +10,4 @@
                  [org.clojure/tools.reader "0.8.4"]
                  [ring-server "0.3.1"]
                  [ring-refresh "0.1.2"]
-                 [org.taoclj/tao-mustache "0.0.2"]])
+                 [org.taoclj/tao-mustache "0.0.2-SNAPSHOT"]])

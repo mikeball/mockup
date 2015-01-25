@@ -18,7 +18,7 @@
             </div>
         </div>
         <div style="text-align:center;">
-            <a href="/{{ path }}/" class="btn btn-primary" role="button">Login Now</a>
+            <a href="." class="btn btn-primary" role="button">Login Now</a>
         </div>
     </form>
 </div>

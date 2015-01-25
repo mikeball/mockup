@@ -17,7 +17,7 @@
             </div>
         </div>
         <div style="text-align:center;">
-            <a href="/{{ path }}/login" class="btn btn-primary" role="button">
+            <a href="../login" class="btn btn-primary" role="button">
                 Reset Password
             </a>
         </div>

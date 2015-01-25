@@ -10,7 +10,7 @@
             </div>
         </div>
         <div style="text-align:center;">
-            <a href="/{{ path }}/reset/confirm" class="btn btn-primary" role="button">
+            <a href="confirm" class="btn btn-primary" role="button">
                 Request Password Reset Email
             </a>
         </div>
