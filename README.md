@@ -5,7 +5,7 @@ Easily create responsive and clickable wireframe prototypes. Pre-loaded with eve
 
 ## Status
 
-Very functional at this point in time. However, it's currently in early development so expect major changes anytime. 
+Very functional at this point in time. However, it's currently in early development so expect major changes anytime.
 
 
 
@@ -32,7 +32,7 @@ cd my-project-name
 lein mockup live
 ```
 
-You can now visit the live mockup at http://localhost:3000/ and edit the files in the generated mockup with your favorite editor, and the browser page automatically refreshes whenever changes are saved.  
+You can now visit the live mockup at http://localhost:3000/ and edit the files in the generated mockup with your favorite editor, and the browser page automatically refreshes whenever changes are saved.
 
 The UI directory will be pre-populated with an example sample site and common scenarious like login/register so you don't have to do this for each and every site you mockup.
 
@@ -62,7 +62,7 @@ Now simply upload the generated static pages to your webserver, Amazon S3, or ho
 
 Often when working you may not have good internet connection in places
 such as a coffee shop. In these cases it's nice to have all page assets be local to prevent
-slow page refreshes. Here's an easy way to pull them down if this is the case. 
+slow page refreshes. Here's an easy way to pull them down if this is the case.
 Run the following commands inside of the ui/_assets folder.
 
 ```bash

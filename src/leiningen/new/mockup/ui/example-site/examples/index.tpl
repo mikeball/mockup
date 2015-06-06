@@ -1,6 +1,10 @@
 <%{:parent "../site.tpl"}%>
 
-<h1>Example of Common Design Elements for Quick Reference</h1>
+<style>
+  .block {margin-bottom:30px;}
+</style>
+
+<h1>Common Design Elements for Quick Reference</h1>
 
 <h2>Common Layouts</h2>
 
@@ -72,7 +76,7 @@
                 <div class="checkbox">
                     <label>
                         <input type="checkbox" value="">
-                        this is some option with a checkbox 
+                        this is some option with a checkbox
                     </label>
                 </div>
             </div>
@@ -111,7 +115,7 @@
     <div class="checkbox">
       <label>
         <input type="checkbox" value="">
-        this is some option with a checkbox 
+        this is some option with a checkbox
       </label>
     </div>
 </div>
@@ -133,7 +137,6 @@
     </form>
 </div>
 
-
 <div class="block">
     <h3>File Upload</h3>
     <form class="form-horizontal" role="form">
@@ -153,7 +156,39 @@
 </div>
 
 <div class="block">
-    <a href="email">Example Email</a>
+    <h3><a href="email" target="_blank">Example Email Layout</a></h3>
 </div>
 
 
+<div class="block">
+    <h3>Notes</h3>
+    <div class="notes">
+      My notes here...
+    </div>
+</div>
+
+
+
+<div class="block">
+    <h3>Action Bar</h3>
+
+    <div class="actions">
+      <a href="" class="btn btn-default btn-lg" role="button">Cancel</a>
+      <a href="" class="btn btn-primary btn-lg" role="button">Complete Some Action!</a>
+    </div>
+
+</div>
+
+
+
+
+<div class="block role-section myrole1">
+  <div class="role-section-header myrole1">Notes about the role...</div>
+  <h3>My Role #1 Specific Section</h3>
+</div>
+
+
+<div class="block role-section myrole2">
+  <div class="role-section-header myrole2">Notes about the role...</div>
+  <h3>My Role #2 Specific Section</h3>
+</div>

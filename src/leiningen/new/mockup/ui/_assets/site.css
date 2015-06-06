@@ -55,7 +55,26 @@ span.glyphicon-envelope { font-size: 4em; float:right;}
 .comma-list li:last-child:after { content: "" }
 
 
+
+/* General Items */
+.email {margin-top:40px;font-size:20px;}
+
+.notes { background-color: yellow; border:dotted 1px #ccc;
+  padding-left:10px; padding-right:10px; padding-top:2px; padding-bottom:2px; }
+
+.actions {
+    text-align:center;margin:40px;}
+
+
+/* Role Based Sections */
+.role-section {border:dashed 2px #ccc;margin:10px;padding-top:0px;}
+.role-section-header {border-bottom:dashed 2px #ccc; font-size:0.9em;margin-bottom:10px;}
+
+
+
+
+
 /* custom css below */
 
-
-
+.myrole1 {border-color:orange;}
+.myrole2 {border-color:aqua;}

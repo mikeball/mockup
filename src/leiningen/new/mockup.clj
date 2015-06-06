@@ -10,9 +10,9 @@
   [name]
   (let [path (name-to-path name)
         data {:name name :path path :child "{{{ child-content }}}"}]
-    
+
     (main/info (str "Generating your " name " mockup project..."))
-    
+
     (->files data
              ["project.clj" (render "project.clj" data)]
              ["README.md" (render "README.md" data)]
@@ -26,12 +26,11 @@
 
              ; top level templates
              ["ui/master.tpl"           (render "ui/master.tpl")]
-             ["ui/master-email.tpl"     (render "ui/master-email.tpl")]
              ["ui/master-service.tpl"   (render "ui/master-service.tpl")]
 
              ; start page
              ["ui/index.tpl"      (render "ui/index.tpl" data)]
-             
+
 
              ; site level pages
              [(str "ui/" path "/site.tpl")           (render "ui/example-site/site.tpl" data)]
