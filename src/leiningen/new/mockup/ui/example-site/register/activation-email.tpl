@@ -9,7 +9,7 @@
     </div>
 
     <div class="block">
-        <p>Please follow the link below to activate your geotaborders.com account.</p>
+        <p>Please follow the link below to activate your account.</p>
         <a href="activate">Active My Account</a>
     </div>
 </div>
